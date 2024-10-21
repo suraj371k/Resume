@@ -1,0 +1,115 @@
+/* style.css */
+
+/* Base styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff79b0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #bb86fc;
+}
+
+header hr {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin: 1rem 0;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+/* Left and right columns */
+article {
+    flex: 1;
+    margin: 1rem;
+}
+
+/* Sections */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #ff79b0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+/* Contact and Skills */
+#mainLeft div {
+    margin: 0.5rem 0;
+}
+
+/* Projects */
+#mainRight div {
+    margin-bottom: 1.5rem;
+}
+
+#mainRight h3 {
+    font-size: 1.4rem;
+    color: #bb86fc;
+    margin-bottom: 0.5rem;
+}
+
+/* Dark card style */
+div {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* About section */
+#mainRight p {
+    line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    article {
+        margin: 0;
+    }
+}
